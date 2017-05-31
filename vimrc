@@ -3,6 +3,7 @@ set number
 syntax on
 filetype on
 set colorcolumn=90
+colorscheme spacegray
 set hidden
 set history=100
 set showmatch
