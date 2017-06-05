@@ -6,7 +6,7 @@ set nobackup
 set noswapfile
 
 "  FILE TYPES
-filetype on
+filetype off
 filetype plugin on
 
 "  THEME & LAYOUT
@@ -39,7 +39,7 @@ set laststatus=2
 "  NERDTree
 map <C-n> :NERDTreeToggle<CR>
 
-"  Syntastic
+"  SYNTASTIC
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
