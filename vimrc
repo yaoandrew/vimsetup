@@ -12,6 +12,7 @@ filetype plugin on
 "  THEME & LAYOUT
 set colorcolumn=90
 colorscheme spacegray
+set term=screen-256color
 set number
 syntax on
 
