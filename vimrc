@@ -36,6 +36,7 @@ set autoindent
 
 "  AIRLINE Active
 set laststatus=2
+let g:airline#extensions#tabline#enabled = 1
 
 "  NERDTree
 map <C-n> :NERDTreeToggle<CR>
