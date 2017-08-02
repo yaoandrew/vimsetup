@@ -10,4 +10,5 @@ From ~/.vim:
 
 ## Configure other machines
 
-Other machines can be setup by running `git submodule update --init --recursive [path to plug]` to get all plugins
+Other machines can be setup by running from ~/.vim/bundle
+`git submodule update --init --recursive [path to plug]` to get all plugins
