@@ -38,6 +38,8 @@ set autoindent
 set laststatus=2
 let g:airline#extensions#tabline#enabled = 1
 
+" vim-pencil
+
 "  NERDTree
 map <C-n> :NERDTreeToggle<CR>
 
