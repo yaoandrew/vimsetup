@@ -39,6 +39,12 @@ set laststatus=2
 let g:airline#extensions#tabline#enabled = 1
 
 " vim-pencil
+let g:airline_section_x = '%{PencilMode()}'
+augroup pencil
+autocmd!
+autocmd FileType markdown,mkd call pencil#init()
+autocmd FileType text         call pencil#init()
+augroup END
 
 "  NERDTree
 map <C-n> :NERDTreeToggle<CR>
