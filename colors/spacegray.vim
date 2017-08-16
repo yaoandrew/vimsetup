@@ -23,7 +23,7 @@ set background=dark
 let colors_name = 'spacegray'
 
 " Colorscheme definitions {{{1
-hi Normal          ctermbg=233  ctermfg=250    guibg=#111314  guifg=#B3B8C4  cterm=NONE      gui=NONE
+hi Normal          ctermbg=0    ctermfg=250    guibg=#111314  guifg=#B3B8C4  cterm=NONE      gui=NONE
 hi Conceal         ctermbg=NONE ctermfg=250    guibg=NONE     guifg=#B3B8C4  cterm=NONE      gui=NONE
 
 if g:spacegray_italicize_comments
