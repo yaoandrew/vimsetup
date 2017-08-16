@@ -31,6 +31,7 @@ set shiftwidth=2
 set expandtab
 set smartindent
 set autoindent
+let g:spacegray_italicize_comments = 1
 
 "  PLUG-IN CONFIGS
 
