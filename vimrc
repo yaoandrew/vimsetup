@@ -37,7 +37,7 @@ let g:spacegray_italicize_comments = 1
 
 "  AIRLINE Active
 set laststatus=2
-let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#enabled = 0
 
 " vim-pencil
 let g:airline_section_x = '%{PencilMode()}'
