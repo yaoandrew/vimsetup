@@ -15,6 +15,8 @@ colorscheme spacegray
 set term=screen-256color
 set number
 syntax on
+set cursorline
+set cursorcolumn
 
 "  PERFORMANCE & HISTORY
 set hidden
