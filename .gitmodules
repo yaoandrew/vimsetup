@@ -31,3 +31,6 @@
 [submodule "bundle/vim-pencil"]
 	path = bundle/vim-pencil
 	url = git@github.com:reedes/vim-pencil
+[submodule "bundle/vim-tmux-navigator"]
+	path = bundle/vim-tmux-navigator
+	url = git@github.com:christoomey/vim-tmux-navigator.git
