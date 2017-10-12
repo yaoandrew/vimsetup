@@ -1,4 +1,4 @@
-"  LOADING
+"  LOADING Plugs
 execute pathogen#infect()
 
 "  BACKUP (none)
@@ -21,7 +21,7 @@ set cursorline
 set hidden
 set history=100
 
-" PARENTHESES
+"  PARENTHESES
 set showmatch
 
 "  TEXT FORMATTING
@@ -40,7 +40,7 @@ let g:spacegray_italicize_comments = 1
 set laststatus=2
 let g:airline#extensions#tabline#enabled = 0
 
-" vim-pencil
+"  vim-pencil
 let g:airline_section_x = '%{PencilMode()}'
 augroup pencil
 autocmd!
