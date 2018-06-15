@@ -5,6 +5,10 @@ execute pathogen#infect()
 set nobackup
 set noswapfile
 
+"  KEYMAP
+inoremap jj <ESC>
+let mapleader = ","
+
 "  FILE TYPES
 filetype off
 filetype plugin on
